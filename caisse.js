@@ -20,3 +20,7 @@ if (Montant_total_des_achats <= Budget_du_client) {
 else {
 console.log("Budget insuffisant");   
 }
+console.log(" ");
+for(let n=1; n<=5; n++){
+    console.log("Achat numéro", +n);
+}
