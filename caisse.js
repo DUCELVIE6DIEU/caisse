@@ -7,13 +7,10 @@ const Montant_des_cahiers = Prix_d_un_cahier * Quantité_de_cahiers;
 const Montant_des_stylos = Prix_d_un_stylo*Quantité_de_stylos;
 const Montant_total_des_achats = Montant_des_cahiers+Montant_des_stylos;
 console.log("===== CAISSE =====");
-console.log("Budget_du_client:", Budget_du_client);
-console.log("Prix_d_un_cahier:", Prix_d_un_cahier);
-console.log("Quantité_de_cahiers:", Quantité_de_cahiers);
-console.log("Prix_d_un_stylo:", Prix_d_un_stylo);
-console.log("Quantité_de_stylos:", Quantité_de_stylos);
-console.log("Montant_des_cahiers:", Montant_des_cahiers);
-console.log("Montant_des_des_stylos:", Montant_des_stylos);
+console.log("cahier:", Prix_d_un_cahier, "FCFA");
+console.log("stylos:", Prix_d_un_stylo, "FCFA");
+console.log("total:", Montant_des_cahiers, "FCFA");
+console.log("budget:", Budget_du_client, "FCFA");
 if (Montant_total_des_achats <= Budget_du_client) {
     console.log("Budget suffissant");
 }
